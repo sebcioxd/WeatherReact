@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  height: 93.7rem;
+  background-color: #fff8f5;
+  font-family: 'Hind', sans-serif;
+  display: flex;
+  align-items: center ;
+  flex-direction: column;
+}
+
+.PrimaryButton {
+  background-color: #01ad3d;
+}
+.SecondaryButton {
+  background-color: #ffe5d6;
+}
+.accent {
+  color: #f8f8f8;
+  background-color: #3d01ad;
+}
+
+#inputText {
+  margin-top: 50px;
+  padding: 20px;
+  padding-right: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  border-radius: 5px;
+  margin-right: 20px;
+  color: #f8f8f8;
+}
+#inputText:focus{
+  cursor: text;
+  transform: scale(1.1);
+  border: 3px solid #ffe5d6;
+}
+#inputText::placeholder {
+  color: white;
+}
+#inputSubmit {
+  margin-top: 30px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+#inputSubmit:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  height: 50rem;
+  min-width: 40rem;
+  flex-direction: column;
+}
